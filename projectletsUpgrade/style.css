@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    height: 60px ;
+    width:100% ;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{ width: 20%;
+    height: 60px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.imglogo{
+    height:40px;
+    overflow: hidden;
+    
+}
+.search{
+    width: 25%;
+    height: 60px;
+   /* background-color: rgb(236, 228, 228);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.searchbox{
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+}
+.search-icon{
+
+    height: 20px;    
+}
+
+
+.movies{
+    width: 100%;
+    padding: 50px 5%;
+background-color: grey;
+display: flex;
+flex-wrap: wrap;
+column-gap: 6%;
+row-gap: 20px;
+
+}
+
+.movie{
+    /* background-color: brown; */
+    width: 28%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+.video{
+    width: 100%;
+    height: 50%;
+    /* background-color:black; */
+}
+.details{
+    width: 100%;
+    height: 55%;
+    /* background-color:white; */
+    font-family: 'Poppins','Courier New';
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+
+    
+}
+.poster{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    
+}
